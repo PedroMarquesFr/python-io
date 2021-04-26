@@ -1,1 +1,2 @@
-rcentage_rows)
+
+        tip += choosen_pokemon["name"][index]
