@@ -14,7 +14,6 @@ try:
     resp = requests.get("http://httpbin.org/delay/10", timeout=2)
 except requests.Timeout:
     resp = requests.get("http://httpbin.org/delay/1", timeout=2)
-finally:
-    
+finally:  
     print(resp.status_code)
 
